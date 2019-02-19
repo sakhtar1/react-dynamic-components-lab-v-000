@@ -7,7 +7,7 @@ export default class Comment extends Component {
   render() {
 
     return (
-      <div className="color-box" style={{opacity: 2}}>
+      <div className="comment"}>
         {this.props.commentText}
       </div>
     )
