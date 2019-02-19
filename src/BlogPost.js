@@ -18,9 +18,9 @@ export default class BlogPost extends Component {
         You only grew accustomed to the salt<br/>
         I was born in it<br/>
 
-        {this.props.commentText}
-        {this.props.commentText}
-        {this.props.commentText}
+        <Comment commentText={comment[0} />
+        <Comment commentText={comment[1} />
+        <Comment commentText={comment[2} />
 
       </div>
     );
